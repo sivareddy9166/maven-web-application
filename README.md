@@ -20,7 +20,7 @@ Comment the adminpanallogger process in ```app.py```.
 ## Procedure
 
 #### Create a miniconda env with name ```browser-refreshment```
-
+install the ```requrements.txt```
 #### Start all the services using docker-compose
 ```docker-compose up -d```
 
