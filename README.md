@@ -41,3 +41,11 @@ Use ```docker-compose.test.yml``` to set up services locally.
 
 ```Telegraf.conf``` file is used to configure InfluxBD, RabbitMQ to telegraf
 
+# Documentaion to set locally
+## Pre-Requesites
+* RabbitMQ, 
+* Telegraf, 
+* InfluxDB, 
+* Grafana. 
+
+Use ```Test_services``` dir to set BR locally [here](Test_services/README>.md)
