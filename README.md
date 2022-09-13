@@ -38,6 +38,8 @@ BR requires following external dependencies for testing locally
 Use ```docker-compose.test.yml``` to set up services locally.
 ```shell
 docker network create BR
+source local_setup.sh 22233
+
 ```
 ## Telegraf config
 
