@@ -36,7 +36,9 @@ BR requires following external dependencies for testing locally
 ## Run
 ### Local Development
 Use ```docker-compose.test.yml``` to set up services locally.
-
+```shell
+docker network create BR
+```
 ## Telegraf config
 
 ```Telegraf.conf``` file is used to configure InfluxBD, RabbitMQ to telegraf
